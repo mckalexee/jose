@@ -10,18 +10,18 @@ labels: triage
 
 **To Reproduce**
 
-Steps to reproduce the behaviour:
+Code to reproduce the behaviour:
 
-1.  
-2.  
-3.  
+```js
+// formatted code snippet that reproduces the behaviour
+```
 
 **Expected behaviour**
 A clear and concise description of what you expected to happen.
 
 **Environment:**
- - `jose` version: [e.g. v1.0.0]
- - node version: [e.g. v12.0.0]
+ - `jose` version: [e.g. v3.0.0]
+ - node version: [e.g. v14.15.0]
 
 **Additional context**
 Add any other context about the problem here.
