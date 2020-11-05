@@ -41,6 +41,168 @@
   },
   "license": "MIT",
   "author": "Filip Skokan <panva.ip@gmail.com>",
+  "imports": {
+    "#dist/jwe/compact/decrypt": {
+      "import": "./dist/node/esm/jwe/compact/decrypt.js",
+      "require": "./dist/node/cjs/jwe/compact/decrypt.js"
+    },
+    "#dist/webcrypto/jwe/compact/decrypt": {
+      "import": "./dist/node/webcrypto/esm/jwe/compact/decrypt.js",
+      "require": "./dist/node/webcrypto/cjs/jwe/compact/decrypt.js"
+    },
+    "#dist/jwe/compact/encrypt": {
+      "import": "./dist/node/esm/jwe/compact/encrypt.js",
+      "require": "./dist/node/cjs/jwe/compact/encrypt.js"
+    },
+    "#dist/webcrypto/jwe/compact/encrypt": {
+      "import": "./dist/node/webcrypto/esm/jwe/compact/encrypt.js",
+      "require": "./dist/node/webcrypto/cjs/jwe/compact/encrypt.js"
+    },
+    "#dist/jwe/flattened/decrypt": {
+      "import": "./dist/node/esm/jwe/flattened/decrypt.js",
+      "require": "./dist/node/cjs/jwe/flattened/decrypt.js"
+    },
+    "#dist/webcrypto/jwe/flattened/decrypt": {
+      "import": "./dist/node/webcrypto/esm/jwe/flattened/decrypt.js",
+      "require": "./dist/node/webcrypto/cjs/jwe/flattened/decrypt.js"
+    },
+    "#dist/jwe/flattened/encrypt": {
+      "import": "./dist/node/esm/jwe/flattened/encrypt.js",
+      "require": "./dist/node/cjs/jwe/flattened/encrypt.js"
+    },
+    "#dist/webcrypto/jwe/flattened/encrypt": {
+      "import": "./dist/node/webcrypto/esm/jwe/flattened/encrypt.js",
+      "require": "./dist/node/webcrypto/cjs/jwe/flattened/encrypt.js"
+    },
+    "#dist/jwk/embedded": {
+      "import": "./dist/node/esm/jwk/embedded.js",
+      "require": "./dist/node/cjs/jwk/embedded.js"
+    },
+    "#dist/webcrypto/jwk/embedded": {
+      "import": "./dist/node/webcrypto/esm/jwk/embedded.js",
+      "require": "./dist/node/webcrypto/cjs/jwk/embedded.js"
+    },
+    "#dist/jwk/parse": {
+      "import": "./dist/node/esm/jwk/parse.js",
+      "require": "./dist/node/cjs/jwk/parse.js"
+    },
+    "#dist/webcrypto/jwk/parse": {
+      "import": "./dist/node/webcrypto/esm/jwk/parse.js",
+      "require": "./dist/node/webcrypto/cjs/jwk/parse.js"
+    },
+    "#dist/jwk/thumbprint": {
+      "import": "./dist/node/esm/jwk/thumbprint.js",
+      "require": "./dist/node/cjs/jwk/thumbprint.js"
+    },
+    "#dist/webcrypto/jwk/thumbprint": {
+      "import": "./dist/node/webcrypto/esm/jwk/thumbprint.js",
+      "require": "./dist/node/webcrypto/cjs/jwk/thumbprint.js"
+    },
+    "#dist/jwks/remote": {
+      "import": "./dist/node/esm/jwks/remote.js",
+      "require": "./dist/node/cjs/jwks/remote.js"
+    },
+    "#dist/webcrypto/jwks/remote": {
+      "import": "./dist/node/webcrypto/esm/jwks/remote.js",
+      "require": "./dist/node/webcrypto/cjs/jwks/remote.js"
+    },
+    "#dist/jws/compact/sign": {
+      "import": "./dist/node/esm/jws/compact/sign.js",
+      "require": "./dist/node/cjs/jws/compact/sign.js"
+    },
+    "#dist/webcrypto/jws/compact/sign": {
+      "import": "./dist/node/webcrypto/esm/jws/compact/sign.js",
+      "require": "./dist/node/webcrypto/cjs/jws/compact/sign.js"
+    },
+    "#dist/jws/compact/verify": {
+      "import": "./dist/node/esm/jws/compact/verify.js",
+      "require": "./dist/node/cjs/jws/compact/verify.js"
+    },
+    "#dist/webcrypto/jws/compact/verify": {
+      "import": "./dist/node/webcrypto/esm/jws/compact/verify.js",
+      "require": "./dist/node/webcrypto/cjs/jws/compact/verify.js"
+    },
+    "#dist/jws/flattened/sign": {
+      "import": "./dist/node/esm/jws/flattened/sign.js",
+      "require": "./dist/node/cjs/jws/flattened/sign.js"
+    },
+    "#dist/webcrypto/jws/flattened/sign": {
+      "import": "./dist/node/webcrypto/esm/jws/flattened/sign.js",
+      "require": "./dist/node/webcrypto/cjs/jws/flattened/sign.js"
+    },
+    "#dist/jws/flattened/verify": {
+      "import": "./dist/node/esm/jws/flattened/verify.js",
+      "require": "./dist/node/cjs/jws/flattened/verify.js"
+    },
+    "#dist/webcrypto/jws/flattened/verify": {
+      "import": "./dist/node/webcrypto/esm/jws/flattened/verify.js",
+      "require": "./dist/node/webcrypto/cjs/jws/flattened/verify.js"
+    },
+    "#dist/jwt/decrypt": {
+      "import": "./dist/node/esm/jwt/decrypt.js",
+      "require": "./dist/node/cjs/jwt/decrypt.js"
+    },
+    "#dist/webcrypto/jwt/decrypt": {
+      "import": "./dist/node/webcrypto/esm/jwt/decrypt.js",
+      "require": "./dist/node/webcrypto/cjs/jwt/decrypt.js"
+    },
+    "#dist/jwt/encrypt": {
+      "import": "./dist/node/esm/jwt/encrypt.js",
+      "require": "./dist/node/cjs/jwt/encrypt.js"
+    },
+    "#dist/webcrypto/jwt/encrypt": {
+      "import": "./dist/node/webcrypto/esm/jwt/encrypt.js",
+      "require": "./dist/node/webcrypto/cjs/jwt/encrypt.js"
+    },
+    "#dist/jwt/sign": {
+      "import": "./dist/node/esm/jwt/sign.js",
+      "require": "./dist/node/cjs/jwt/sign.js"
+    },
+    "#dist/webcrypto/jwt/sign": {
+      "import": "./dist/node/webcrypto/esm/jwt/sign.js",
+      "require": "./dist/node/webcrypto/cjs/jwt/sign.js"
+    },
+    "#dist/jwt/verify": {
+      "import": "./dist/node/esm/jwt/verify.js",
+      "require": "./dist/node/cjs/jwt/verify.js"
+    },
+    "#dist/webcrypto/jwt/verify": {
+      "import": "./dist/node/webcrypto/esm/jwt/verify.js",
+      "require": "./dist/node/webcrypto/cjs/jwt/verify.js"
+    },
+    "#dist/util/base64url": {
+      "import": "./dist/node/esm/util/base64url.js",
+      "require": "./dist/node/cjs/util/base64url.js"
+    },
+    "#dist/webcrypto/util/base64url": {
+      "import": "./dist/node/webcrypto/esm/util/base64url.js",
+      "require": "./dist/node/webcrypto/cjs/util/base64url.js"
+    },
+    "#dist/util/generate_key_pair": {
+      "import": "./dist/node/esm/util/generate_key_pair.js",
+      "require": "./dist/node/cjs/util/generate_key_pair.js"
+    },
+    "#dist/webcrypto/util/generate_key_pair": {
+      "import": "./dist/node/webcrypto/esm/util/generate_key_pair.js",
+      "require": "./dist/node/webcrypto/cjs/util/generate_key_pair.js"
+    },
+    "#dist/util/generate_secret": {
+      "import": "./dist/node/esm/util/generate_secret.js",
+      "require": "./dist/node/cjs/util/generate_secret.js"
+    },
+    "#dist/webcrypto/util/generate_secret": {
+      "import": "./dist/node/webcrypto/esm/util/generate_secret.js",
+      "require": "./dist/node/webcrypto/cjs/util/generate_secret.js"
+    },
+    "#dist/util/random": {
+      "import": "./dist/node/esm/util/random.js",
+      "require": "./dist/node/cjs/util/random.js"
+    },
+    "#dist/webcrypto/util/random": {
+      "import": "./dist/node/webcrypto/esm/util/random.js",
+      "require": "./dist/node/webcrypto/cjs/util/random.js"
+    }
+  },
   "exports": {
     "./jwe/compact/decrypt": {
       "browser": "./dist/browser/jwe/compact/decrypt.js",
@@ -239,18 +401,23 @@
     "build:node-webcrypto-cjs": "run-s runtime-node-webcrypto && run-s 'build -- -p ./tsconfig/node-webcrypto-cjs.json'",
     "build:node-webcrypto-esm": "run-s runtime-node-webcrypto && run-s 'build -- -p ./tsconfig/node-webcrypto-esm.json' && echo '{\"type\": \"module\"}'> dist/node/webcrypto/esm/package.json",
     "clear": "rm -rf dist",
+    "coverage": "c8 npm run test",
+    "coverage-webcrypto": "c8 npm run test-webcrypto",
     "docs": "run-s docs:*",
     "docs:fixup": "find docs -type f -name '*.md' | xargs sed -i '' -e 's/undefined \\\\| //g'",
     "docs:generate": "npx typedoc --disableOutputCheck --excludeNotExported --excludePrivate --excludeProtected --gitRevision main --readme none --listInvalidSymbolLinks --plugin typedoc-plugin-markdown --out docs --includeDeclarations --excludeExternals --tsconfig ./tsconfig/browser.json --mode modules src/types.d.ts src/jwt/*.ts src/jwe/**/*.ts src/jws/**/*.ts src/jwk/*.ts src/jwks/*.ts src/util/*.ts --hideProjectName --hideGenerator --allReflectionsHaveOwnDocument --hideBreadcrumbs",
-    "lint": "eslint ./src",
+    "lint": "eslint --config ./src/.eslintrc.json ./src",
     "runtime-browser": "run-s runtime:clear runtime:browser:* runtime:refs",
     "runtime-node": "run-s runtime:clear runtime:node:* runtime:refs",
     "runtime-node-webcrypto": "run-s runtime:clear runtime:browser:* && cp ./src/runtime/node/webcrypto.ts ./src/runtime/ && cp ./src/runtime/node/fetch.ts ./src/runtime/ && cp ./src/runtime/node/base64url.ts ./src/runtime/ && cp ./src/runtime/node/zlib.ts ./src/runtime/ && run-s runtime:refs",
     "runtime:browser:copy": "cp ./src/runtime/browser/*.ts ./src/runtime",
-    "runtime:clear": "run-s -s runtime:find | xargs -0 rm",
-    "runtime:find": "find ./src/runtime/*.ts -not -name 'interfaces.d.ts' -type f -print0",
+    "runtime:clear": "run-s -s runtime:find | xargs -0 rm -f",
+    "runtime:find": "find src/runtime -not -name 'interfaces.d.ts' -maxdepth 1 -type f -print0",
     "runtime:node:copy": "cp ./src/runtime/node/*.ts ./src/runtime",
-    "runtime:refs": "run-s -s runtime:find | xargs -0 sed -i '' -e \"s/'\\.\\.\\//'\\.\\//g\" -e \"s/'\\.\\/\\.\\./'../g\""
+    "runtime:refs": "run-s -s runtime:find | xargs -0 sed -i '' -e \"s/'\\.\\.\\//'\\.\\//g\" -e \"s/'\\.\\/\\.\\./'../g\"",
+    "test": "npm run test-rollup && ava",
+    "test-rollup": "rm -rf test/cjs && find test -type f -name '*.mjs' -print0 | xargs -0 rollup --silent --no-interop --preserveModules --format cjs --dir test/cjs",
+    "test-webcrypto": "WEBCRYPTO=true npm test"
   },
   "husky": {
     "hooks": {
@@ -265,17 +432,30 @@
   "devDependencies": {
     "@types/node": "^14.14.2",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "ava": "^3.13.0",
+    "c8": "^7.3.5",
     "eslint": "^7.12.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-config-prettier": "^6.14.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^30.7.3",
     "glob": "^7.1.6",
+    "nock": "^13.0.4",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.1.2",
+    "rollup": "^2.33.1",
+    "timekeeper": "^2.2.0",
     "typedoc": "^0.19.2",
     "typedoc-plugin-markdown": "^3.0.11",
     "typescript": "^4.0.3"
+  },
+  "c8": {
+    "src": "./src",
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
   },
   "standard-version": {
     "commit-all": true,

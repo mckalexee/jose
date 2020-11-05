@@ -2,6 +2,9 @@
 src/runtime/*.ts
 +src/runtime/interfaces.d.ts
 
+# cjs clone of the test suite
+test/cjs
+
 # Logs
 logs
 *.log
